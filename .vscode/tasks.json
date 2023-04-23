@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/RpaToolHelper.Console/RpaToolHelper.Console.csproj",
+                "${workspaceFolder}/src/CopyFiles.UI/CopyFiles.UI.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,12 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "-c",
-                "Release",
-                "-p:PublishSingleFile=true",
-                "--self-contained",
-                "true",
-                "${workspaceFolder}/src/RpaToolHelper.Console/RpaToolHelper.Console.csproj",
+                "${workspaceFolder}/src/CopyFiles.UI/CopyFiles.UI.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -38,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/RpaToolHelper.Console/RpaToolHelper.Console.csproj"
+                "${workspaceFolder}/src/CopyFiles.UI/CopyFiles.UI.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
