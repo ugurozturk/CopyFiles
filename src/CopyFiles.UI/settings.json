@@ -1,6 +1,8 @@
 {
     "copyDestination": "/Volumes/T7Touch/cikti/sil",
     "ignoreFiles": [
-        ".DS_Store"
+        ".DS_Store",
+        "CopyFiles",
+        "settings.json"
     ]
 }

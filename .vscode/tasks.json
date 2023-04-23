@@ -19,6 +19,13 @@
             "type": "process",
             "args": [
                 "publish",
+                "-p:DebugType=None", 
+                "-p:DebugSymbols=false",
+                "-c",
+                "Release",
+                "-p:PublishSingleFile=true",
+                "--self-contained",
+                "true",
                 "${workspaceFolder}/src/CopyFiles.UI/CopyFiles.UI.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
