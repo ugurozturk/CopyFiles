@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/CopyFiles.UI/bin/Debug/net7.0/CopyFiles.UI.dll",
+            "program": "${workspaceFolder}/src/CopyFiles.UI/bin/Debug/net9.0/CopyFiles.UI.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/CopyFiles.UI",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console

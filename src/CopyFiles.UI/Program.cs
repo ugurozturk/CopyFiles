@@ -62,11 +62,14 @@ for (int i = 0; i < files.Count; i++)
     }
 }
 
-System.Console.WriteLine("Already exists:");
-for (int i = 0; i < alreadyExistsFiles.Count; i++)
+if (alreadyExistsFiles.Count > 0)
 {
-    System.Console.WriteLine(alreadyExistsFiles[i]);
+    System.Console.WriteLine("Already exists:");
+    for (int i = 0; i < alreadyExistsFiles.Count; i++)
+    {
+        System.Console.WriteLine(alreadyExistsFiles[i]);
+    }
 }
 
 System.Console.WriteLine("Finished.");
-Console.ReadLine();
+Console.ReadKey();
