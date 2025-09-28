@@ -6,6 +6,7 @@
 
   <PropertyGroup>
     <AssemblyName>CopyFiles</AssemblyName>
+    <RootNamespace>CopyFiles</RootNamespace>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
