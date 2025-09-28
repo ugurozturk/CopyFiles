@@ -1,4 +1,4 @@
-﻿namespace CopyFiles.Library;
+namespace CopyFiles.Library;
 public class SettingsType
 {
     public string CopyDestination { get; set; } = null!;
