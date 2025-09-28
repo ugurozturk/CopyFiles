@@ -31,7 +31,7 @@ public class Program
 
         if (settings == null)
         {
-            Console.WriteLine("Ayarlar boş olamaz");
+            Console.WriteLine("Settings could not be loaded.");
             return;
         }
 
